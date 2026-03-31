@@ -224,7 +224,7 @@ blockquote::before {
 .table-container {
     width: 100%;
     overflow-x: auto;
-    margin: var(--space-md) 0;
+    margin: var(--space-md) 0; 
 }
 
 table { width: 100%; border-collapse: collapse; min-width: 500px; }
