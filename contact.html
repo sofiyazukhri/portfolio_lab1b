@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Portfolio page for HTML assestment.">
+	<title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<header>
+		<h1> AININ SOFIYA BINTI ZUKHRI </h1>
+		<p> COMPUTING STUDENT </p>
+	</header>
+
+	<nav>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li> 
+        <li><a href="academic.html">ACADEMIC</a></li>
+        <li><a href="skills.html">SKILLS</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="contact.html">CONTACT</a></li> 
+    </ul>
+    </nav>
+
+	<main>
+
+	<section id="contact">
+        <h2>CONTACT ME</h2>
+
+        <form action="#" method="post">
+        <fieldset>
+            <legend>Send me a message</legend>
+
+            <p>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required>
+            </p>
+
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
+            </p>
+
+            <p>
+                <label for="reason">Reason:</label><br>
+                <select id="reason" name="reason">
+                    <option value="ask">asking question</option>
+                    <option value="work">work inquiry</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="msg">Message:</label><br>
+                <textarea id="msg" name="msg" rows="2" required></textarea>
+            </p>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </fieldset>
+        </form>
+    </section>
+
+    </main>
+
+
+	<footer>
+		<address>
+			Email: <a href="mailto:ainin05@graduate.utm.my">ainin05@graduate.utm.my</a>
+		</address>
+		<p><small>&copy; 2026 Ainin Sofiya binti Zukhri. All rights reserved.</small></p>
+	</footer>
+
+</body>
+</html>
