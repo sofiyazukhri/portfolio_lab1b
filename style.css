@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Lora:wght@400;700&display=swap');
 
-/* --- TASK 1: THEME VARIABLES --- */
 :root {
     --color-primary: #1a1a2e;    
     --color-secondary: #16213e;  
@@ -18,7 +17,6 @@
     --radius: 12px; 
 }
 
-/* --- BASE STYLES & RESET --- */
 * { box-sizing: border-box; }
 html { font-size: 62.5%; scroll-behavior: smooth; }
 
@@ -36,7 +34,6 @@ body {
     background-color: var(--color-surface); 
 }
 
-/* --- TASK 3: STICKY NAVIGATION --- */
 nav {
     position: sticky; 
     top: 0;
@@ -90,7 +87,6 @@ nav a.active {
     font-weight: bold;
 }
 
-/* --- TASK 3 & 4: HERO HEADER & IMAGE FIX --- */
 header {
     background-color: var(--color-primary);
     color: var(--color-white);
@@ -145,7 +141,6 @@ header h1 {
     border-color: var(--color-hover);
 }
 
-/* --- NEW: PROJECT ICON RULE (Fixes big GitHub logo) --- */
 .project-icon {
     width: 80px; 
     height: auto;
@@ -155,7 +150,6 @@ header h1 {
     margin: 1.5rem 0;
 }
 
-/* --- LAYOUT & SECTION CARDS --- */
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -187,7 +181,6 @@ h2 {
 
 h3 { font-size: 2.4rem; color: var(--color-secondary); }
 
-/* --- TASK 4: ADVANCED BLOCKQUOTE --- */
 blockquote {
     position: relative;
     padding: var(--space-md) var(--space-lg);
@@ -208,7 +201,6 @@ blockquote::before {
     opacity: 0.2;
 }
 
-/* --- TASK 4: INTERACTIVE BUTTON --- */
 .btn-primary {
     display: inline-block;
     background-color: var(--color-primary);
@@ -229,7 +221,6 @@ blockquote::before {
     color: var(--color-primary) !important;
 }
 
-/* --- TASK 5: RESPONSIVE TABLES --- */
 .table-container {
     width: 100%;
     overflow-x: auto;
@@ -240,7 +231,6 @@ table { width: 100%; border-collapse: collapse; min-width: 500px; }
 th, td { padding: var(--space-sm); border: 1px solid var(--color-accent); text-align: left; }
 th { background-color: var(--color-primary); color: var(--color-accent); }
 
-/* --- FORMS --- */
 input, textarea, select {
     width: 100%;
     padding: var(--space-sm);
@@ -255,7 +245,6 @@ input:focus, textarea:focus, select:focus {
     box-shadow: 0 0 0 3px var(--color-accent); 
 }
 
-/* --- FOOTER --- */
 footer {
     background-color: var(--color-secondary);
     color: var(--color-white);
@@ -264,7 +253,6 @@ footer {
     font-size: 1.4rem;
 }
 
-/* --- TASK 5: MOBILE MEDIA QUERIES --- */
 @media (max-width: 768px) {
     header .container {
         flex-direction: column;
